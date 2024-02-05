@@ -1,0 +1,46 @@
+hhtml {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #19B885;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: none;
+  padding: 0.8em 2em;
+  border: none;
+  cursor: pointer;
+}
+#analyticsResults {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
